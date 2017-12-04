@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.riz.admin.weatherapp.Home">
+
+    <include
+
+        android:id="@+id/main_app_toolbar"
+        layout="@layout/app_main_bar" />
+<ScrollView
+    android:fadingEdge="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+
+        <TextView
+            android:text="Today"
+            android:textSize="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rcToday"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white"
+        android:elevation="10dp">
+        <TextView
+            android:text="Tomorrow"
+            android:textSize="30dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="2dp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcTomorow"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

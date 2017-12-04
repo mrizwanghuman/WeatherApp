@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+
+    android:orientation="vertical"
+    android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_hour_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <ImageView
+            android:id="@+id/tv_icon_dis"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_temp_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:drawableRight="@drawable/ic_panorama_fish_eye_white_24dp"
+            android:gravity="center"
+            android:drawableEnd="@drawable/ic_panorama_fish_eye_white_24dp" />
+
+
+
+</LinearLayout>

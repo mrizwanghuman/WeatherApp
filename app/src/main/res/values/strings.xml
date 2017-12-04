@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_setting">Settings</string>
+    <string name="stringComma">,</string>
+    <string name="weathericon">weatherIcon</string>
+
+
+</resources>
